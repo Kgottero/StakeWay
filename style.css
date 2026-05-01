@@ -287,7 +287,6 @@ h2{
         grid-column:auto;
     }
     .others button{
-        width:30vw;
-        color:green;
+        width:15vw;
     }
     }
