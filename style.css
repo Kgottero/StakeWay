@@ -90,7 +90,9 @@ body{
     height:clamp(10px, 20vw, 200px);
 }
 .football img{
-    width:10vw;
+    width:1vw;
+    height:12vw;
+    object-fit: contain;
 }
 .football img{
     width:clamp(10px, 10vw, 100px);
@@ -100,6 +102,17 @@ body{
 }
 .others p{
     color:black;
+}
+.display-one a{
+    text-decoration: none;
+    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.5vw
+}
+.display-one p{
+    font-weight: 300;
 }
 .others{
     display:flex;
@@ -301,8 +314,10 @@ h2{
     color:#4abf18;
     border: none;
     font-size:2.1vw;
-    gap:20vw;
+    display: flex;
     height:5vw;
+    gap:1.5vw;
+    align-items: center;
     border-radius: 0.2vw;
     font-family: inter;
 }
@@ -316,6 +331,15 @@ h2{
     justify-content: center;
     align-items: center;
     font-size:200px;
+}
+.teams .team-name{
+    font-size: 3vw;
+}
+.teams{
+    align-items: center;
+    border:1px solid rgb(80, 80, 80);
+    border-radius: 2vw;
+    padding:2vw;
 }
 /*End of Test Section*/
 @media(max-width:700px){
@@ -349,5 +373,6 @@ h2{
         width:15vw;
     }
     }
+
 
 
