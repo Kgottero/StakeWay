@@ -169,19 +169,17 @@ body{
 }
 .match-simulation{
     border:solid 1px;
-    width:50vw;
+    width:70vw;
     padding: 3vw;
     display: flex;
     flex-direction: column;
-    border-color: rgb(66, 66, 66);
     color:rgb(80, 80, 80);
     font-size:2vw;
     justify-content: center;
     align-items: center;
-    gap:20px;
+    gap:5vw;
     display: none;
-    border-radius: 10px;
-    border-width: 2px;
+    border: none;
 
 }
 .match-simulation .teams{
@@ -210,7 +208,6 @@ h2{
     height:fit-content;
     justify-content: center;
     align-items: center;
-    padding-bottom: 5vw;
 }
 .first-set{
     display:flex;
@@ -221,6 +218,7 @@ h2{
     gap:5vw;
 
 }
+
 .second{
     margin-top:5vw ;
     grid-column: span 2;
@@ -255,8 +253,69 @@ h2{
     background-color: black;
     color:white;
     font-weight: 500;
-    font-size:2vw
+    font-size:2vw;
+}
 
+.left-stake, .right-stake{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap:1.5vw;
+
+}
+.parent-div{
+    justify-content: space-between;
+    width:70vw;
+
+    display: flex;
+    display: flex;
+    flex-direction: row;
+
+}
+.parent-div button{
+    border: none;
+    background-color:#2C2A2A;
+    color:#41A416;
+    font-size:2.1vw;
+    display: flex;
+    gap:2vw;
+    height:5vw;
+    justify-content: center;
+    align-items: center;
+    padding:1vw;
+    border-radius: 0.2vw;
+    font-family: inter;
+
+}
+.teams-stake{
+    display: flex;
+    width:70vw;
+    justify-content: space-between;
+    gap:2vw;
+    font-family: inter;
+
+}
+.teams-stake button{
+
+    background-color:#2C2A2A;
+    color:#4abf18;
+    border: none;
+    font-size:2.1vw;
+    gap:20vw;
+    height:5vw;
+    border-radius: 0.2vw;
+    font-family: inter;
+}
+.over-under{
+    align-self: flex-start;
+
+    }
+.team-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:200px;
 }
 /*End of Test Section*/
 @media(max-width:700px){
@@ -290,3 +349,5 @@ h2{
         width:15vw;
     }
     }
+
+
