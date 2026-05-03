@@ -115,6 +115,7 @@ if (seconds === 11){
     setTimerAndMatchScores(team);
     document.querySelector('.game-2').classList.add('second');
     document.querySelector('.display-one').classList.add('first-set');
+    document.querySelector('.display-one').style.display = 'none';
     }
 buttonOne.addEventListener('click', ()=>{
     displayMatchSimulation('Arsenal');
@@ -154,6 +155,7 @@ endSimulation.addEventListener('click', (event)=> {
     document.querySelector('.game-1').classList.remove('first');
     document.querySelector('.game-2').classList.remove('second');
     document.querySelector('.display-one').classList.remove('first-set');
+    document.querySelector('.display-one').style.display = 'flex';
 
 
 });
